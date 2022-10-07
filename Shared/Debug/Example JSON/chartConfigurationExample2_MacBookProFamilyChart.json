@@ -1,0 +1,223 @@
+{
+    "dataSources": [
+        {
+            "label": "default",
+            "data": {
+                "Launched": [
+                    "February 14, 2006",
+                    "April 24, 2006",
+                    "October 24, 2006",
+                    "June 5, 2007",
+                    "November 1, 2007",
+                    "February 26, 2008",
+                    "February 26, 2008",
+                    "October 14, 2008",
+                    "October 14, 2008",
+                    "January 6, 2009",
+                    "March 3, 2009",
+                    "June 8, 2009",
+                    "April 13, 2010",
+                    "February 24, 2011",
+                    "October 24, 2011",
+                    "June 11, 2012",
+                    "June 11, 2012",
+                    "October 23, 2012",
+                    "February 13, 2013",
+                    "October 22, 2013",
+                    "July 29, 2014",
+                    "March 9, 2015",
+                    "May 19, 2015",
+                    "October 27, 2016",
+                    "November 12, 2016",
+                    "June 5, 2017",
+                    "June 5, 2017",
+                    "July 12, 2018",
+                    "May 21, 2019",
+                    "May 21, 2019",
+                    "July 9, 2019",
+                    "November 13, 2019",
+                    "May 4, 2020",
+                    "May 4, 2020",
+                    "November 10, 2020",
+                    "October 18, 2021",
+                    "October 18, 2021",
+                    "June 24, 2022"
+                ],
+                "Model": [
+                    "MacBook Pro Aluminum 15\" (Early 2006)",
+                    "MacBook Pro Aluminum 17\" (Early 2006)",
+                    "MacBook Pro Aluminum (Late 2006)",
+                    "MacBook Pro Aluminum (Mid 2007)",
+                    "MacBook Pro Aluminum (Late 2007)",
+                    "MacBook Pro Aluminum 15\" (Early 2008)",
+                    "MacBook Pro Aluminum 17\" (Early 2008)",
+                    "MacBook Pro Aluminum (Late 2008)",
+                    "MacBook Pro Unibody (Late 2008)",
+                    "MacBook Pro Unibody 17\" (Early 2009)",
+                    "MacBook Pro Unibody 15\" (Early 2009)",
+                    "MacBook Pro Unibody (Mid 2009)",
+                    "MacBook Pro Unibody (Mid 2010)",
+                    "MacBook Pro Unibody (Early 2011)",
+                    "MacBook Pro Unibody (Late 2011)",
+                    "MacBook Pro Unibody (Mid 2012)",
+                    "MacBook Pro Retina (Mid 2012)",
+                    "MacBook Pro Retina (Late 2012)",
+                    "MacBook Pro Retina (Early 2013)",
+                    "MacBook Pro Retina (Late 2013)",
+                    "MacBook Pro Retina (Mid 2014)",
+                    "MacBook Pro Retina (Early 2015)",
+                    "MacBook Pro Retina (Mid 2015)",
+                    "MacBook Pro Butterfly kbd (Late 2016)",
+                    "MacBook Pro Butterfly kbd (Late 2016)",
+                    "MacBook Pro Butterfly kbd (2017)",
+                    "MacBook Pro Butterfly kbd (2017)",
+                    "MacBook Pro (2018)",
+                    "MacBook Pro (15-inch, 2019)",
+                    "MacBook Pro (13-inch, Four Thunderbolt, 2019)",
+                    "MacBook Pro (13-inch, Two Thunderbolt, 2019)",
+                    "MacBook Pro (16-inch, 2019)",
+                    "MacBook Pro (13-inch, Two Thunderbolt, 2020)",
+                    "MacBook Pro (13-inch, Four Thunderbolt, 2020)",
+                    "MacBook Pro (13-inch, M1, 2020)",
+                    "MacBook Pro (14-inch, 2021)",
+                    "MacBook Pro (16-inch, 2021)",
+                    "MacBook Pro (13-inch, M2, 2022)"
+                ],
+                "Discontinued": [
+                    "February 26, 2008",
+                    "February 26, 2008",
+                    "June 5, 2007",
+                    "November 1, 2007",
+                    "February 26, 2008",
+                    "October 14, 2008",
+                    "January 6, 2009",
+                    "June 8, 2009",
+                    "June 8, 2009",
+                    "June 8, 2009",
+                    "June 8, 2009",
+                    "April 13, 2010",
+                    "February 24, 2011",
+                    "October 24, 2011",
+                    "June 11, 2012",
+                    "October 27, 2016",
+                    "February 13, 2013",
+                    "February 13, 2013",
+                    "October 22, 2013",
+                    "July 29, 2014",
+                    "March 9, 2015",
+                    "June 5, 2017",
+                    "July 12, 2018",
+                    "June 5, 2017",
+                    "June 5, 2017",
+                    "July 9, 2019",
+                    "July 12, 2018",
+                    "May 21, 2019",
+                    "November 13, 2019",
+                    "May 4, 2020",
+                    "May 4, 2020",
+                    "October 18, 2021",
+                    "November 10, 2020",
+                    "October 18, 2021",
+                    "June 6, 2022",
+                    "December 31, 2022",
+                    "December 31, 2022",
+                    "December 31, 2022"
+                ]
+            }
+        },
+        {
+            "label": "CPU",
+            "data": {
+                "date": "2020-11-10"
+            }
+        }
+    ],
+    "components": [
+        {
+            "type": "BarMark",
+            "config": {
+                "dataKey": "default",
+                "xStart": {
+                    "field": "Launched"
+                },
+                "xEnd": {
+                    "field": "Discontinued"
+                },
+                "y": {
+                    "field": "Model"
+                },
+                "foregroundStyleField": "Model",
+                "conditionalAnnotations": [
+                    {
+                        "field": "Model",
+                        "value": "MacBook Pro (16-inch, 2021)",
+                        "annotation": {
+                            "position": "leading",
+                            "content": {
+                                "text": {
+                                    "content": "Current Model 👉🏻",
+                                    "fontStyle": {
+                                        "size": 14,
+                                        "weight": "bold"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "RuleMark",
+            "config": {
+                "dataKey": "CPU",
+                "x": {
+                    "field": "date"
+                },
+                "foregroundStyleColor": "#AAA",
+                "lineStyle": {
+                    "lineWidth": 3
+                },
+                "annotations": [
+                    {
+                        "position": "topTrailing",
+                        "content": {
+                            "text": {
+                                "content": "Apple Silicon(ARM based)",
+                                "fontStyle": {
+                                    "size": 14,
+                                    "weight": "light"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "position": "topLeading",
+                        "content": {
+                            "text": {
+                                "content": "Intel x86",
+                                "fontStyle": {
+                                    "size": 14,
+                                    "weight": "light",
+                                    "color": "#000A"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "styleConfiguration": {
+        "maxHeight": 1500,
+        "padding": [
+            0,
+            24,
+            0,
+            0
+        ]
+    },
+    "chartLegend": {
+        "hidden": true
+    }
+}

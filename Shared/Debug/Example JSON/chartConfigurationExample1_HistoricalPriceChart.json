@@ -1,0 +1,124 @@
+{
+  "dataSources": [
+    {
+      "label": "default",
+      "data": {
+        "Price": [
+          40000,
+          150000,
+          9000000,
+          13000000,
+          10000000,
+          14000000,
+          13500000
+        ],
+        "Date": [
+          "1950-01-01",
+          "1969-01-01",
+          "1987-01-01",
+          "1997-01-01",
+          "2005-01-01",
+          "2015-01-01",
+          "2022-01-01"
+        ]
+      }
+    }
+  ],
+  "components": [
+    {
+      "type": "LineMark",
+      "config": {
+        "x": {
+          "field": "Date"
+        },
+        "y": {
+          "field": "Price"
+        },
+        "interpolationMethod": "cardinal",
+        "symbol": {
+          "type": "Square"
+        }
+      },
+      "interactions": [
+        {
+          "type": "Hover",
+          "tooltip": {
+            "type": "Manual",
+            "config": [
+              {
+                "field": "Date",
+                "value": "1950-01-01",
+                "content": {
+                  "vStack": {
+                    "spacing": 2,
+                    "elements": [
+                      {
+                        "text": {
+                          "content": "$40000",
+                          "fontStyle": {
+                            "size": 17,
+                            "weight": "bold"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Alexandra Daveluy, who's James Ensor's niece, sold the painting to an Ostend casino proprietor named Gustave Nellens for $40,000.",
+                          "fontStyle": {
+                            "size": 14,
+                            "weight": "regular"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "field": "Date",
+                "value": "1987-01-01",
+                "content": {
+                  "vStack": {
+                    "spacing": 2,
+                    "elements": [
+                      {
+                        "text": {
+                          "content": "€9,000,000",
+                          "fontStyle": {
+                            "size": 17,
+                            "weight": "bold"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Louis Franck sold the painting from his foundation Foudation Socindec to the J. Paul Getty Museum through Alex Reid & Lefevre, Ltd. (London, England), in 1987, for €9,000,000.",
+                          "fontStyle": {
+                            "size": 14,
+                            "weight": "regular"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+            ]
+          }
+        },
+        {
+          "type": "Click",
+          "action": {
+            "type": "OpenURL",
+            "config": {
+              "url": "https://www.google.com"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "styleConfiguration": {
+    "maxHeight": 250
+  }
+}

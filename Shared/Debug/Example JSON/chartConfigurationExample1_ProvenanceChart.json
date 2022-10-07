@@ -1,0 +1,360 @@
+{
+  "dataSources": [
+    {
+      "label": "default",
+      "data": {
+        "Name": [
+          "James Ensor",
+          "Alexandra Daveluy",
+          "Casino Communal",
+          "Louis Franck",
+          "Foudation Socindec",
+          "Getty Museum"
+        ],
+        "Start": [
+          "1888-01-01",
+          "1949-01-01",
+          "1950-01-01",
+          "1954-01-01",
+          "1969-01-01",
+          "1987-01-01"
+        ],
+        "End": [
+          "1949-01-01",
+          "1950-01-01",
+          "1954-01-01",
+          "1969-01-01",
+          "1987-01-01",
+          "2022-01-01"
+        ]
+      }
+    }
+  ],
+  "components": [
+    {
+      "type": "BarMark",
+      "config": {
+        "xStart": {
+          "field": "Start"
+        },
+        "xEnd": {
+          "field": "End"
+        },
+        "y": {
+          "field": "Name"
+        },
+        "height": 20
+      },
+      "interactions": [
+        {
+          "type": "Hover",
+          "tooltip": {
+            "type": "Manual",
+            "config": [
+              {
+                "field": "Name",
+                "value": "James Ensor",
+                "content": {
+                  "vStack": {
+                    "spacing": 2,
+                    "elements": [
+                      {
+                        "text": {
+                          "content": "James Ensor",
+                          "fontStyle": {
+                            "size": 15,
+                            "weight": "bold"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Ostend, Belgium",
+                          "fontStyle": {
+                            "size": 12,
+                            "weight": "medium"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "[James Ensor](https://en.wikipedia.org/wiki/James_Ensor) is the author of the painting. The painting was passed by inheritance to his niece, Alexandra Daveluy, in 1949.",
+                          "fontStyle": {
+                            "size": 12,
+                            "weight": "regular"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Owned: 1888 - 1949",
+                          "fontStyle": {
+                            "size": 10,
+                            "weight": "medium"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "field": "Name",
+                "value": "Alexandra Daveluy",
+                "content": {
+                  "vStack": {
+                    "spacing": 2,
+                    "elements": [
+                      {
+                        "text": {
+                          "content": "Alexandra Daveluy",
+                          "fontStyle": {
+                            "size": 15,
+                            "weight": "bold"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Ostend, Belgium",
+                          "fontStyle": {
+                            "size": 12,
+                            "weight": "medium"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Alexandra Daveluy, who is [James Ensor](https://en.wikipedia.org/wiki/James_Ensor)'s niece, inherited the painting from James Ensor.",
+                          "fontStyle": {
+                            "size": 12,
+                            "weight": "regular"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Owned: 1949 - 1950",
+                          "fontStyle": {
+                            "size": 10,
+                            "weight": "medium"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "field": "Name",
+                "value": "Casino Communal",
+                "content": {
+                  "vStack": {
+                    "spacing": 2,
+                    "elements": [
+                      {
+                        "text": {
+                          "content": "Casino Communal",
+                          "fontStyle": {
+                            "size": 15,
+                            "weight": "bold"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Knokke-le-Zoute, Belgium",
+                          "fontStyle": {
+                            "size": 12,
+                            "weight": "medium"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "In 1950, the painting went for **$40,000** to an Ostend **casino proprietor** named **Gustave Nellens**. [Source](https://content.time.com/time/subscriber/article/0,33009,820598,00.html)",
+                          "fontStyle": {
+                            "size": 12,
+                            "weight": "regular"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Owned: 1950 - 1954?",
+                          "fontStyle": {
+                            "size": 10,
+                            "weight": "medium"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "field": "Name",
+                "value": "Louis Franck",
+                "content": {
+                  "vStack": {
+                    "spacing": 2,
+                    "elements": [
+                      {
+                        "text": {
+                          "content": "Louis Franck",
+                          "fontStyle": {
+                            "size": 15,
+                            "weight": "bold"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "London, England; Gstaad, Switzerland",
+                          "fontStyle": {
+                            "size": 12,
+                            "weight": "medium"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Louis Franck came from one of the wealthiest and most influential Jewish families in Antwerpen. His uncle Louis Franck was the governor of the National Bank of Belgium and was a politician (Minister of Colonies) and lawyer. His father was an influential art collector who had one of the most impressive private collections in Europe. He sold the painting to his foundation, Fondation Socindec (Vaduz, Liechtenstein), in 1969.",
+                          "fontStyle": {
+                            "size": 12,
+                            "weight": "regular"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Owned: 1954 - 1969",
+                          "fontStyle": {
+                            "size": 10,
+                            "weight": "medium"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "field": "Name",
+                "value": "Foudation Socindec",
+                "content": {
+                  "vStack": {
+                    "spacing": 2,
+                    "elements": [
+                      {
+                        "text": {
+                          "content": "Foudation Socindec",
+                          "fontStyle": {
+                            "size": 15,
+                            "weight": "bold"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Vaduz, Liechtenstein",
+                          "fontStyle": {
+                            "size": 12,
+                            "weight": "medium"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Fondation Socindec is the foudation of Louis Franck, who sold the parining for €9 million through Alex Reid & Lefevre, Ltd. (London, England) to the J. Paul Getty Museum, 1987.",
+                          "fontStyle": {
+                            "size": 12,
+                            "weight": "regular"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Owned: 1954 - 1969",
+                          "fontStyle": {
+                            "size": 10,
+                            "weight": "medium"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "field": "Name",
+                "value": "Getty Museum",
+                "content": {
+                  "vStack": {
+                    "spacing": 2,
+                    "elements": [
+                      {
+                        "text": {
+                          "content": "Getty Museum",
+                          "fontStyle": {
+                            "size": 15,
+                            "weight": "bold"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Los Angeles, America",
+                          "fontStyle": {
+                            "size": 12,
+                            "weight": "medium"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "The J. Paul Getty Museum, commonly referred to as the Getty, is an art museum in Los Angeles, California housed on two campuses: the Getty Center and Getty Villa.",
+                          "fontStyle": {
+                            "size": 12,
+                            "weight": "regular"
+                          }
+                        }
+                      },
+                      {
+                        "text": {
+                          "content": "Owned: 1987 - Now",
+                          "fontStyle": {
+                            "size": 10,
+                            "weight": "medium"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Click",
+          "action": {
+            "type": "OpenURL",
+            "config": {
+              "url": "https://www.google.com"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "chartXScale": {
+    "domain": [
+      "1888-01-01",
+      "2022-01-01"
+    ]
+  },
+  "styleConfiguration": {
+    "maxHeight": 250
+  }
+}

@@ -1,0 +1,1738 @@
+{
+  "dataSources": [
+    {
+      "label": "default",
+      "data": {
+        "x": [
+          0.25,
+          0.35,
+          0.38,
+          0.6,
+          0.75,
+          0.365,
+          0.5,
+          0.65,
+          0.505,
+          0.475,
+          0.495,
+          0.5275,
+          0.535,
+          0.55,
+          0.6,
+          0.525
+        ],
+        "y": [
+          0.335,
+          0.275,
+          0.145,
+          0.2,
+          0.3,
+          0.595,
+          0.6,
+          0.75,
+          0.4,
+          0.44,
+          0.48,
+          0.5125,
+          0.47,
+          0.505,
+          0.54,
+          0.31
+        ],
+        "name": [
+          "Qingpu",
+          "Songjiang",
+          "Jinshan",
+          "Fengxian",
+          "Pudong",
+          "Jiading",
+          "Baoshan",
+          "Chongming",
+          "Xuhui",
+          "Changning",
+          "Putuo",
+          "Jingan",
+          "Huangpu",
+          "Hongkou",
+          "Yangpu",
+          "Minhang"
+        ]
+      }
+    }
+  ],
+  "components": [
+    {
+      "type": "PointMark",
+      "config": {
+        "dataKey": "default",
+        "x": {
+          "field": "x"
+        },
+        "y": {
+          "field": "y"
+        },
+        "conditionalAnnotations": [
+          {
+            "field": "name",
+            "value": "Qingpu",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/qingpu-101020800.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Qingpu",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "23\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Songjiang",
+            "annotation": {
+              "position": "center",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/songjiang-101020900.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Songjiang",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "23\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Jinshan",
+            "annotation": {
+              "position": "center",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/jinshan-101020700.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Jinshan",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "23\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Fengxian",
+            "annotation": {
+              "position": "topTrailing",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/fengxian-101021000.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Fengxian",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "23\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Pudong",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/pudong-101020600.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Pudong",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "23\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Jiading",
+            "annotation": {
+              "position": "center",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/jiading-101020500.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Jiading",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "23\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Baoshan",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/baoshan-101020300.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Baoshan",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "23\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Chongming",
+            "annotation": {
+              "position": "center",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/chongming-101021100.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Chongming",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "22\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Xuhui",
+            "annotation": {
+              "position": "center",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/xuhui-101021200.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Xuhui",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "24\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:27\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Changning",
+            "annotation": {
+              "position": "leading",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/changning-101021300.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Changning",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "24\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:27\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Putuo",
+            "annotation": {
+              "position": "topLeading",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/putuo-101021500.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Putuo",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "24\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:27\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Jingan",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/jing'an-101021400.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Jingan",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "22\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Huangpu",
+            "annotation": {
+              "position": "bottomTrailing",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/huangpu-101020400.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Huangpu",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "23\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Hongkou",
+            "annotation": {
+              "position": "trailing",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/hongkou-101021600.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Hongkou",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "23\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Yangpu",
+            "annotation": {
+              "position": "topTrailing",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/yangpu-101021700.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Yangpu",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "23\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "name",
+            "value": "Minhang",
+            "annotation": {
+              "position": "bottom",
+              "content": {
+                "vStack": {
+                  "spacing": 4,
+                  "modifiers": [
+                    {
+                      "padding": {
+                        "trailing": 8,
+                        "leading": 8,
+                        "top": 8,
+                        "bottom": 8
+                      }
+                    },
+                    {
+                      "background": {
+                        "color": "#FFF"
+                      }
+                    },
+                    {
+                      "roundedCorner": {
+                        "radius": 8
+                      }
+                    },
+                    {
+                      "onTap": {
+                        "action": {
+                          "openURL": {
+                            "url": "https://www.qweather.com/weather/minhang-101020200.html"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "text": {
+                        "content": "Minhang",
+                        "fontStyle": {
+                          "size": 17,
+                          "weight": "medium"
+                        }
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "Sep 5, 2022",
+                        "fontStyle": {
+                          "size": 12,
+                          "weight": "light"
+                        }
+                      }
+                    },
+                    {
+                      "hStack": {
+                        "elements": [
+                          {
+                            "sfSymbol": {
+                              "name": "sun.max.fill",
+                              "size": 24
+                            }
+                          },
+                          {
+                            "vStack": {
+                              "elements": [
+                                {
+                                  "hStack": {
+                                    "elements": [
+                                      {
+                                        "text": {
+                                          "content": "22\u00b0",
+                                          "fontStyle": {
+                                            "size": 20,
+                                            "weight": "medium"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "H:26\u00b0 L:21\u00b0",
+                        "fontStyle": {
+                          "size": 12
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "styleConfiguration": {
+    "padding": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "maxHeight": 1000
+  },
+  "chartXAxis": {
+    "hidden": true
+  },
+  "chartYAxis": {
+    "hidden": true
+  },
+  "chartXScale": {
+    "domain": [
+      0,
+      1
+    ]
+  },
+  "chartYScale": {
+    "domain": [
+      0,
+      1
+    ]
+  }
+}

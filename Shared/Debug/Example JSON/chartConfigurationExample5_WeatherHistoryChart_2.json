@@ -1,0 +1,460 @@
+{
+  "dataSources": [
+    {
+      "label": "default",
+      "data": {
+        "x": [
+          "2022-09-06",
+          "2022-09-07",
+          "2022-09-08",
+          "2022-09-09",
+          "2022-09-10",
+          "2022-09-11",
+          "2022-09-12",
+          "2022-09-13"
+        ],
+        "y": [
+          32,
+          31,
+          32,
+          32,
+          30,
+          29,
+          28,
+          28
+        ]
+      }
+    }
+  ],
+  "components": [
+    {
+      "type": "PointMark",
+      "config": {
+        "dataKey": "default",
+        "x": {
+          "field": "x"
+        },
+        "y": {
+          "field": "y"
+        },
+        "conditionalAnnotations": [
+          {
+            "field": "x",
+            "value": "2022-09-06",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "sun.max.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#FFF0"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "32\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-09-07",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "cloud.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#00000030"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "31\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-09-08",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "sun.max.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#FFF0"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "32\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-09-09",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "cloud.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#00000030"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "32\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-09-10",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "cloud.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#00000030"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "30\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-09-11",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "cloud.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#00000030"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "29\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-09-12",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "cloud.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#00000030"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "28\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-09-13",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "sun.max.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#FFF0"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "28\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BarMark",
+      "config": {
+        "dataKey": "default",
+        "x": {
+          "field": "x"
+        },
+        "y": {
+          "field": "y"
+        },
+        "foregroundStyleColor": "#427BFF"
+      }
+    }
+  ],
+  "styleConfiguration": {
+    "maxWidth": 533,
+    "maxHeight": 300,
+    "padding": [
+      0,
+      16,
+      0,
+      0
+    ]
+  }
+}

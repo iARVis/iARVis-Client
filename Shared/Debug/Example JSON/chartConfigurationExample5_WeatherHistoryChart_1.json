@@ -1,0 +1,460 @@
+{
+  "dataSources": [
+    {
+      "label": "default",
+      "data": {
+        "x": [
+          "2022-08-22",
+          "2022-08-23",
+          "2022-08-24",
+          "2022-08-25",
+          "2022-08-26",
+          "2022-08-27",
+          "2022-08-28",
+          "2022-08-29"
+        ],
+        "y": [
+          33,
+          34,
+          33,
+          31,
+          31,
+          32,
+          33,
+          33
+        ]
+      }
+    }
+  ],
+  "components": [
+    {
+      "type": "PointMark",
+      "config": {
+        "dataKey": "default",
+        "x": {
+          "field": "x"
+        },
+        "y": {
+          "field": "y"
+        },
+        "conditionalAnnotations": [
+          {
+            "field": "x",
+            "value": "2022-08-22",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "thermometer.sun.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#00000030"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "33\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-08-23",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "thermometer.sun.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#00000030"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "34\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-08-24",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "thermometer.sun.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#00000030"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "33\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-08-25",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "sun.max.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#FFF0"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "31\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-08-26",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "cloud.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#00000030"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "31\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-08-27",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "sun.max.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#FFF0"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "32\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-08-28",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "thermometer.sun.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#00000030"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "33\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "field": "x",
+            "value": "2022-08-29",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "vStack": {
+                  "spacing": 2,
+                  "elements": [
+                    {
+                      "sfSymbol": {
+                        "name": "thermometer.sun.fill",
+                        "size": 24,
+                        "modifiers": [
+                          {
+                            "padding": {
+                              "trailing": 2,
+                              "leading": 2,
+                              "top": 2,
+                              "bottom": 2
+                            }
+                          },
+                          {
+                            "background": {
+                              "color": "#00000030"
+                            }
+                          },
+                          {
+                            "roundedCorner": {
+                              "radius": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": {
+                        "content": "33\u00b0",
+                        "fontStyle": {
+                          "size": 15,
+                          "weight": "medium"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BarMark",
+      "config": {
+        "dataKey": "default",
+        "x": {
+          "field": "x"
+        },
+        "y": {
+          "field": "y"
+        },
+        "foregroundStyleColor": "#427BFF"
+      }
+    }
+  ],
+  "styleConfiguration": {
+    "maxWidth": 533,
+    "maxHeight": 300,
+    "padding": [
+      0,
+      16,
+      0,
+      0
+    ]
+  }
+}

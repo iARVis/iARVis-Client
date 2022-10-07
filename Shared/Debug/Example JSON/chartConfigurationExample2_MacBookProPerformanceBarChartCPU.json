@@ -1,0 +1,109 @@
+{
+  "dataSources": [
+    {
+      "label": "default",
+      "data": {
+        "model": [
+          "Lenovo Legion 5 Pro 16",
+          "Medion Erazer Beast X25",
+          "Apple Macbook Pro 2021 14\" (10/16)",
+          "Apple Macbook Pro 2021 16\" (10/32)",
+          "Lenovo IdeaPad 5 Pro 16",
+          "ASUS TUF Gaming FX506HM-HN004T",
+          "ASUS ROG Flow X13",
+          "Microsoft Surface Laptop 4",
+          "Apple Macbook Pro 2021 14\" (8/14)",
+          "Medion Erazer e25",
+          "Lenovo Legion 5",
+          "Apple MacBook Pro 2020 M1",
+          "Apple MacBook Air 2020 M1 (8/8)",
+          "Apple MacBook Air 2020 M1 (8/7)",
+          "MSI Prestige 14 Evo A11M",
+          "Dell XPS 15 9570"
+        ],
+        "cpu": [
+          "Ryzen 7 5800H",
+          "Ryzen 9 5900HX",
+          "M1 Pro 10-core",
+          "M1 Max 10-core",
+          "Ryzen 7 5800H",
+          "Ci7-11800H",
+          "Ryzen 9 5980HS",
+          "Ryzen 7 4980U",
+          "M1 Pro 8-core",
+          "Ryzen 5 5600H",
+          "Ci7-10750H",
+          "M1",
+          "M1",
+          "M1",
+          "Ci7-1195G7",
+          "Ci7-8750H"
+        ],
+        "Cinebench 23 - Multi": [
+          12.751,
+          12.714,
+          12.387,
+          12.373,
+          11.819,
+          11.638,
+          11.527,
+          9.711,
+          9.572,
+          9.075,
+          8.194,
+          7.795,
+          7.685,
+          7.647,
+          6.075,
+          5.471
+        ],
+      }
+    }
+  ],
+  "components": [
+    {
+      "type": "BarMark",
+      "config": {
+        "dataKey": "default",
+        "x": {
+          "field": "model"
+        },
+        "y": {
+          "field": "Cinebench 23 - Multi"
+        },
+        "conditionalAnnotations": [
+          {
+            "field": "model",
+            "value": "Apple Macbook Pro 2021 16\" (10/32)",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "text": {
+                  "content": "Apple Macbook Pro 2021 16\" (10/32)",
+                  "fontStyle": {
+                    "size": 14,
+                    "weight": "bold"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "foregroundStyleColorMap": [
+          {
+            "field": "model",
+            "value": "Apple Macbook Pro 2021 16\" (10/32)",
+            "color": "#FFA500"
+          }
+        ]
+      }
+    },
+  ],
+  "styleConfiguration": {
+    "maxWidth": 800,
+    "maxHeight": 450
+  },
+  "chartYScale": {
+    "includingZero": false
+  }
+}

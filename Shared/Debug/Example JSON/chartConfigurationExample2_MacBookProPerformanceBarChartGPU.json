@@ -1,0 +1,99 @@
+{
+  "dataSources": [
+    {
+      "label": "default",
+      "data": {
+        "model": [
+          "Medion Erazer Beast X25",
+          "Apple Macbook Pro 2021 16\" (10/32)",
+          "Medion Erazer e25",
+          "Apple Macbook Pro 2021 14\" (10/16)",
+          "Apple Macbook Pro 2021 14\" (8/14)",
+          "Apple MacBook Air 2020 M1 (8/8)",
+          "Apple MacBook Air 2020 M1 (8/7)",
+          "Dell XPS 15 9570",
+          "MSI Prestige 14 Evo A11M"
+        ],
+        "CPU": [
+          "Ryzen 9 5900HX",
+          "M1 Max 10-core",
+          "Ryzen 5 5600H",
+          "M1 Pro 10-core",
+          "M1 Pro 8-core",
+          "M1",
+          "M1",
+          "Ci7-8750H",
+          "Ci7-1195G7"
+        ],
+        "GPU": [
+          "GF RTX 3080",
+          "M1 Max 32-core",
+          "GF RTX 3050 Ti",
+          "M1 Pro 16-core",
+          "M1 Pro 14-core",
+          "M1 8-core",
+          "M1 7-core",
+          "GF GTX 1050 Ti Max-Q",
+          "Ci7-1195G7"
+        ],
+        "score": [
+          22.686,
+          20.253,
+          10.634,
+          10.424,
+          9.272,
+          5.015,
+          4.518,
+          4.422,
+          3.885
+        ]
+      }
+    }
+  ],
+  "components": [
+    {
+      "type": "BarMark",
+      "config": {
+        "dataKey": "default",
+        "x": {
+          "field": "model"
+        },
+        "y": {
+          "field": "score"
+        },
+        "conditionalAnnotations": [
+          {
+            "field": "model",
+            "value": "Apple Macbook Pro 2021 16\" (10/32)",
+            "annotation": {
+              "position": "top",
+              "content": {
+                "text": {
+                  "content": "Apple Macbook Pro 2021 16\" (10/32)",
+                  "fontStyle": {
+                    "size": 14,
+                    "weight": "bold"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "foregroundStyleColorMap": [
+          {
+            "field": "model",
+            "value": "Apple Macbook Pro 2021 16\" (10/32)",
+            "color": "#FFA500"
+          }
+        ]
+      }
+    },
+  ],
+  "styleConfiguration": {
+    "maxWidth": 800,
+    "maxHeight": 450
+  },
+  "chartYScale": {
+    "includingZero": false
+  }
+}

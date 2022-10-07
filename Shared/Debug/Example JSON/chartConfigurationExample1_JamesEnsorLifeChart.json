@@ -1,0 +1,449 @@
+{
+    "dataSources": [
+        {
+            "label": "Life Data",
+            "data": {
+                "Born": "1860-04-13",
+                "Death": "1949-11-19",
+                "yStart": 0,
+                "yEnd": 1
+            }
+        },
+        {
+            "label": "Work Data",
+            "data": {
+                "Start": "1877-01-01",
+                "End": "1949-11-19",
+                "yStart": 0,
+                "yEnd": 1
+            }
+        },
+        {
+            "label": "Artwork Data",
+            "data": {
+                "Title": [
+                    "Portrait of the Painter in a Flowered Hat",
+                    "The Temptation of Saint Anthony",
+                    "Masks Confronting Death",
+                    "Christ's Entry into Brussels",
+                    "The Baths at Ostend",
+                    "Skeletons Fighting over a Pickled Herring"
+                ],
+                "Date": [
+                    "1883-01-01",
+                    "1887-01-01",
+                    "1888-01-01",
+                    "1889-01-01",
+                    "1890-01-01",
+                    "1891-01-01"
+                ],
+                "y": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5
+                ]
+            }
+        }
+    ],
+    "components": [
+        {
+            "type": "RectangleMark",
+            "config": {
+                "dataKey": "Life Data",
+                "xStart": {
+                    "field": "Born"
+                },
+                "xEnd": {
+                    "field": "Death"
+                },
+                "yStart": {
+                    "field": "yStart"
+                },
+                "yEnd": {
+                    "field": "yEnd"
+                },
+                "foregroundStyleColor": "#DDDA"
+            }
+        },
+        {
+            "type": "RectangleMark",
+            "config": {
+                "dataKey": "Work Data",
+                "xStart": {
+                    "field": "Start"
+                },
+                "xEnd": {
+                    "field": "End"
+                },
+                "yStart": {
+                    "field": "yStart"
+                },
+                "yEnd": {
+                    "field": "yEnd"
+                },
+                "foregroundStyleColor": "#0F03"
+            }
+        },
+        {
+            "type": "RuleMark",
+            "config": {
+                "dataKey": "Life Data",
+                "x": {
+                    "field": "Born"
+                },
+                "foregroundStyleColor": "#AAA",
+                "lineStyle": {
+                    "lineWidth": 3
+                },
+                "annotations": [
+                    {
+                        "position": "topTrailing",
+                        "content": {
+                            "text": {
+                                "content": "Born",
+                                "fontStyle": {
+                                    "size": 14,
+                                    "weight": "light"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "RuleMark",
+            "config": {
+                "dataKey": "Life Data",
+                "x": {
+                    "field": "Death"
+                },
+                "foregroundStyleColor": "#AAA",
+                "lineStyle": {
+                    "lineWidth": 3
+                },
+                "annotations": [
+                    {
+                        "position": "topLeading",
+                        "content": {
+                            "text": {
+                                "content": "Death",
+                                "fontStyle": {
+                                    "size": 14,
+                                    "weight": "light"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "RuleMark",
+            "config": {
+                "dataKey": "Work Data",
+                "x": {
+                    "field": "Start"
+                },
+                "foregroundStyleColor": "#0A0",
+                "lineStyle": {
+                    "lineWidth": 3
+                },
+                "annotations": [
+                    {
+                        "position": "topTrailing",
+                        "content": {
+                            "text": {
+                                "content": "Work",
+                                "fontStyle": {
+                                    "size": 14,
+                                    "weight": "light"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "PointMark",
+            "config": {
+                "dataKey": "Artwork Data",
+                "x": {
+                    "field": "Date"
+                },
+                "y": {
+                    "field": "y"
+                },
+                "foregroundStyleColor": "#09F",
+                "symbolSize": {
+                    "width": 10,
+                    "height": 10
+                }
+            },
+            "interactions": [
+                {
+                    "type": "Hover",
+                    "tooltip": {
+                        "type": "Manual",
+                        "config": [
+                            {
+                                "field": "Title",
+                                "value": "Portrait of the Painter in a Flowered Hat",
+                                "content": {
+                                    "vStack": {
+                                        "spacing": 2,
+                                        "elements": [
+                                            {
+                                                "text": {
+                                                    "content": "Prominent Artwork",
+                                                    "fontStyle": {
+                                                        "size": 15,
+                                                        "weight": "bold"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "text": {
+                                                    "content": "Portrait of the Painter in a Flowered Hat",
+                                                    "fontStyle": {
+                                                        "size": 13,
+                                                        "weight": "medium"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "image": {
+                                                    "url": "https://www.theartstory.org/images20/works/ensor_james_1.jpg?1",
+                                                    "contentMode": "fit",
+                                                    "width": 200
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "field": "Title",
+                                "value": "The Temptation of Saint Anthony",
+                                "content": {
+                                    "vStack": {
+                                        "spacing": 2,
+                                        "elements": [
+                                            {
+                                                "text": {
+                                                    "content": "Prominent Artwork",
+                                                    "fontStyle": {
+                                                        "size": 15,
+                                                        "weight": "bold"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "text": {
+                                                    "content": "The Temptation of Saint Anthony",
+                                                    "fontStyle": {
+                                                        "size": 13,
+                                                        "weight": "medium"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "image": {
+                                                    "url": "https://www.theartstory.org/images20/works/ensor_james_6.jpg?1",
+                                                    "contentMode": "fit",
+                                                    "width": 200
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "field": "Title",
+                                "value": "Masks Confronting Death",
+                                "content": {
+                                    "vStack": {
+                                        "spacing": 2,
+                                        "elements": [
+                                            {
+                                                "text": {
+                                                    "content": "Prominent Artwork",
+                                                    "fontStyle": {
+                                                        "size": 15,
+                                                        "weight": "bold"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "text": {
+                                                    "content": "Masks Confronting Death",
+                                                    "fontStyle": {
+                                                        "size": 13,
+                                                        "weight": "medium"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "image": {
+                                                    "url": "https://www.theartstory.org/images20/works/ensor_james_4.jpg?1",
+                                                    "contentMode": "fit",
+                                                    "width": 200
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "field": "Title",
+                                "value": "Christ's Entry into Brussels",
+                                "content": {
+                                    "vStack": {
+                                        "spacing": 2,
+                                        "elements": [
+                                            {
+                                                "text": {
+                                                    "content": "Prominent Artwork",
+                                                    "fontStyle": {
+                                                        "size": 15,
+                                                        "weight": "bold"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "text": {
+                                                    "content": "Christ's Entry into Brussels",
+                                                    "fontStyle": {
+                                                        "size": 13,
+                                                        "weight": "medium"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "image": {
+                                                    "url": "https://www.theartstory.org/images20/works/ensor_james_2.jpg?1",
+                                                    "contentMode": "fit",
+                                                    "width": 200
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "field": "Title",
+                                "value": "The Baths at Ostend",
+                                "content": {
+                                    "vStack": {
+                                        "spacing": 2,
+                                        "elements": [
+                                            {
+                                                "text": {
+                                                    "content": "Prominent Artwork",
+                                                    "fontStyle": {
+                                                        "size": 15,
+                                                        "weight": "bold"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "text": {
+                                                    "content": "The Baths at Ostend",
+                                                    "fontStyle": {
+                                                        "size": 13,
+                                                        "weight": "medium"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "image": {
+                                                    "url": "https://www.theartstory.org/images20/works/ensor_james_3.jpg?1",
+                                                    "contentMode": "fit",
+                                                    "width": 200
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "field": "Title",
+                                "value": "Skeletons Fighting over a Pickled Herring",
+                                "content": {
+                                    "vStack": {
+                                        "spacing": 2,
+                                        "elements": [
+                                            {
+                                                "text": {
+                                                    "content": "Prominent Artwork",
+                                                    "fontStyle": {
+                                                        "size": 15,
+                                                        "weight": "bold"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "text": {
+                                                    "content": "Skeletons Fighting over a Pickled Herring",
+                                                    "fontStyle": {
+                                                        "size": 13,
+                                                        "weight": "medium"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "image": {
+                                                    "url": "https://www.theartstory.org/images20/works/ensor_james_7.jpg?1",
+                                                    "contentMode": "fit",
+                                                    "width": 200
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "styleConfiguration": {
+        "padding": [
+            0,
+            24,
+            0,
+            0
+        ]
+    },
+    "chartXScale": {
+        "domain": [
+            "1855-01-01",
+            "1949-11-19"
+        ]
+    },
+    "chartXAxis": {
+        "axisMarks": {
+            "axisMarksValues": {
+                "strideByDateComponent": {
+                    "component": "year",
+                    "count": 10
+                }
+            },
+            "axisValueLabel": {
+                "format": {
+                    "year": {
+                        "format": "defaultDigits"
+                    }
+                }
+            }
+        }
+    },
+    "chartYAxis": {
+        "hidden": true
+    }
+}
