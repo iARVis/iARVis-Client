@@ -4,6 +4,10 @@
 
 iARVis is a proof-of-concept open-source toolkit for creating information and data visualization environment in mobile-based augmented reality using declarative grammar (JSON) and its APIs. iARVis supports creating visualization widgets containing charts, rich text, images, videos, audios, etc. iARVis also supports advanced features such as hot-reload, automatic positioning, persistence and continuity, etc.
 
+## Demo and Paper
+
+https://www.youtube.com/watch?v=WWCcecGuniw
+
 ## Build
 
 1. Run `pod install` in the root of the project(make sure you've installed [cocoapods](https://cocoapods.org)).
@@ -42,7 +46,7 @@ ARCore doesn't support object tracking, which is critical to the automatic posit
 
 iARVis is implemented on top of native technologies on iOS, for example, using ARKit as the AR engine and SwiftUI as the 2D content rendering engine. iARVis is responsible for parsing the specification, creating the visualization environment in AR, managing the interaction, persisting the environment, etc. 
 
-iARVis can accept a JSON specification, and use a parser to parse the specification to a configuration. iARVis can use the configuration to generate the widget configuration, use native frameworks such as SwiftUI, UIKit and Charts to render the widget and add interactions. iARVis is responsible for coordinating the rendering system and the augmented reality system. iARVis uses SceneKit to place rendered widgets in the 3D scene to implement the automaitc positioning feature. Hot-reload is implemented by periodically fetching the JSON specification and comparing the configuration. If the configuration is changed, iARVis will rerender the widget using new configuration.
+iARVis can accept a JSON specification, and use a parser to parse the specification to a configuration. iARVis can use the configuration to generate the widget configuration, use native frameworks such as SwiftUI, UIKit and Charts to render the widget and add interactions. iARVis is responsible for coordinating the rendering system and the augmented reality system. iARVis uses SceneKit to place rendered widgets in the 3D scene to implement the automatic positioning feature. Hot-reload is implemented by periodically fetching the JSON specification and comparing the configuration. If the configuration is changed, iARVis will rerender the widget using new configuration.
 
 ## Usage
 
