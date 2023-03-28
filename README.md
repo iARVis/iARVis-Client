@@ -6,7 +6,7 @@ iARVis is a proof-of-concept open-source toolkit for creating information and da
 
 ## Demo and Paper
 
-https://www.youtube.com/watch?v=WWCcecGuniw
+You can check out the [demo video](https://www.youtube.com/watch?v=WWCcecGuniw) and [paper](https://github.com/iARVis/iARVis-Client/raw/main/iARVis_paper.pdf).
 
 ## Build
 
